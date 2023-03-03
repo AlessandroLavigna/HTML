@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        #box1 {
+            background-color: #dba4cb;
+        }
+
+        /* lo span è un elemento inline e seppur modificando il width ed height andrei a coprire solo la zona inline, modificandolo in un inline-block vado a poterlo modificare come un elemento di blocco */
+
+        #box1 span {
+            background-color: rgb(177, 172, 172);
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            /* text align centra la scritta orizzontalmente */
+            text-align: center;
+            /* line height modifica l`altezza della scritta, mettendo un valore uguale a quello di height lo posiziono centralmente */
+            line-height: 100px;
+            /* border radius definisce il raggio della modifica, al 100% lo rende un cerchio */
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Inline vs Block vs Inline-block</h1>
+
+    <div id="box1">
+        <span>html</span>
+        <span>css</span>
+        <span>javascript</span>
+    </div>   
+    
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae repellendus nobis unde asperiores tempora harum optio voluptatibus, est ut voluptates eos ratione. Nam explicabo autem nulla cumque. Facilis, tempore id?
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione3</title>
+
+    <style>
+
+        /* inserendo html vado a modificare tutta la pagina, in questo caso ho modificato il font di tutta la pagina, Arial è il principale, nel caso in cui non sia disponibile nel browser usa Helvetica e se non vi è nemmeno quest`ultimo utilizzerà sans-serif */
+
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+
+        /* i rem sono un valore che vanno a moltiplicarsi con la grandezza del font size della pagina, generalmente il browser è di 14 px, in questo caso l`ho modificato nella sezione html a 16px, solo se modificato nella sezione html viene considerato dal rem se no avrà valore di 14px */
+        #boxes {
+            padding: 1rem;
+            border: 0.8rem solid blue;
+            background-color: #3C2A21;
+        }
+
+         /* il css se va a modificare un tag modifica tutti quelli presenti nella pagina se gli metto la #nomeclasse vado a modificare tutti i div presenti in quella classe, in questo caso sono tutti i div dentro il tag section con la tag boxes */
+        
+        #boxes div{
+
+            /* background-color va a modificare lo "sfondo" del contenuto */
+            background-color: #3E54AC;
+
+            /* color va a modificare il contenuto, in questo caso la scritta, il parametro può essere scritto in più modi, inserendolo con rgb posso modificare la trasparenza aggiungendo un quarto numero che incide sulla trasparenza (in questo caso si fermerebbe al 75 e il 0.4 è la trasparenza) diventando un rgba */
+
+            color: rgb(249, 245, 75, 0.4);
+
+            /* il padding va ad allontanare il contenuto dai bordi */
+
+            /*  
+            padding-top: 20px;
+
+            padding-right: 30px;
+
+            padding-bottom: 10px;
+
+            padding-left: 10px;
+
+            */
+
+            /* il margin va ad aumentare il margine */
+
+            padding: 1.2rem;
+            margin: 0 0 3rem;
+
+            border: 0.8rem dotted #A7727D;
+
+        }
+
+        #boxes div h1 {
+
+            background-color: #3C2A21; 
+            font-size: 1.9rem;
+        }
+
+        #boxes div h1 span {
+            background-color: #a34997;
+            padding: 1.3rem;
+        }
+
+            
+        
+        
+
+    </style>
+</head>
+<body>
+
+    <section id="boxes">
+
+      <div>
+            <h1>
+                <span>prima box</span>
+            </h1>
+      
+            <div> 
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga est autem omnis corporis praesentium, ipsam dolorum enim unde consequatur cumque maxime rem ipsum debitis nam necessitatibus perspiciatis, incidunt, tempore et!
+             </div>
+    </div>     
+
+      <div>
+            <h1>
+                <span>seconda box</span>
+            </h1>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam laboriosam eos mollitia amet dignissimos dolores consequuntur quae pariatur perspiciatis earum! Ut dignissimos dolores, rerum quasi error odio architecto culpa accusantium
+            </div>
+            
+      </div>
+           <h1>
+               <span>terza box</span>
+           </h1>
+
+      <div>
+            
+      </div>
+
+    </section>
+
+      <div>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, dolores repellendus architecto saepe, magnam ipsum id vel nostrum excepturi autem sed suscipit repudiandae voluptas reiciendis nihil beatae sequi? Laborum, magnam.
+      </div>
+    
+    <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat commodi vel magni fugit explicabo, at distinctio sunt asperiores consequatur, excepturi laboriosam exercitationem esse adipisci beatae ipsa velit quos culpa.
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+nel caso in cui ho più elementi con la stessa classe per modificarli tutti senza andare a modificarli uno ad uno devo usare javascript o andando a modificare il back-end
+
+il protocollo http mi permette di connettermi, è uno scambio di richieste (routing) tra il mio server ed il browser.
+
+api: è una nomenclatura, o serie di regole, che io devo utilizzare per comunicare (Es.: io per parlare in italiano devo utilizzare le regole della lingua italiana per farmi comprendere dagli altri)
+
+Micro-Service: ci sono siti (Es.: Facebook) che hanno tanti server con le loro mansioni (uno per la sicurezza, uno per i profili...)
+
+Se voglio eliminare lo spazio tra i margini di due elementi (quello che vedo nel background-color di due elementi) mettendo in css nel contenitore del elemento font-syze:0 e rimettendo il font-size desiderato nell`elemento specifico (Es.:ul -> font-syze 0 - li -> font-syze 1rem)
+
+Mettere gli elementi per verificare la funzionalità sotto commento per poter verificare i bug (Es.: mettendo un background-color).  
+
+Tutti gli elementi se non modificati via css vengono posizionati nel angolo superiore sinistro (Es.: se metto due o più elementi vengono messi uno sotto l`altro a sinistra).
+Per rimediare uso il tag css FLOAT che me li unisce in linea la formattazione mettendoli uno di fianco a l`altro.
+Se dopo il comando flow voglio rimettere l`elemento successivo come prima utilizzo il tag css CLEAR. 
+
+

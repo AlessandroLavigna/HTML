@@ -1,0 +1,141 @@
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 1rem 0;
+}
+
+#page-header nav {
+    background-color: #adadad;
+    padding: 1rem;
+}
+
+#page-header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    /* riducendo a 0 nel ul il font size, e rimettendolo nel li, elimino lo spazio tra i bordi del nav rendendolo un background unito */
+    font-size: 0;
+    /* per centrarlo avendo 4 caselle ho dovuto moltiplicare il width del li per 4 */
+    width: 520px;
+}
+
+#page-header nav ul li {
+    display: inline-block;
+    width: 130px;
+    background-color: #497296;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#page-header nav ul li a {
+    text-decoration: none;
+    color: white;
+    /* il text transform mi permette di trasformare il testo in lettere maiuscole in stampatello */
+    text-transform: uppercase; 
+    /* mettendolo in display block rendo cliccabile anche il background (zona colorata) dell`elemento e non solo la scritta, questo perchè il link di base è un elemento inline */
+    display: block;
+    padding: 0.5rem 0.3rem;
+}
+
+#page-header nav ul li a:hover {
+    background-color: pink;
+}
+
+#sect1 {
+    background-color: pink;
+    padding: 1rem;
+}
+
+#sect1 div {
+    background-color: darkmagenta;
+    padding: 1rem;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#sect2 {
+    margin-top: 1rem;
+    padding: 0 1rem;
+    /* background-color: lightblue; */
+}
+
+.card {
+    background-color: rgb(83, 72, 23);
+    padding: 0.7rem;
+    width: 300px;
+    border: 0.4rem solid rgba(0, 0, 0, 0.596);
+    margin: auto;
+}
+
+.card-title {
+    /* height: 40px; */
+    font-size: 1.5rem;
+    border-bottom: solid black;
+}
+
+.card-image {
+    height: 250px;
+    background-color: black;
+    margin-top: 0.6rem;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.img-drago-bianco {
+    background-image: url(Drago_Bianco_Occhi_Blu.webp);    
+}
+
+.card-racial {
+    padding-top: 0.3rem;
+    font-style: oblique;
+}
+
+.card-content {
+    /*height: 100px;*/
+    background-color: rgba(134, 122, 71, 0.562) ;
+    margin-top: 0.6rem;
+    border: 1px solid rgb(51, 24, 1);
+}
+
+.card-content div:nth-child(1) {
+    display: inline-block;
+    width: 60%;
+    border-right: 1px solid;
+}
+
+.card-content div:nth-child(2) {
+    display: inline-block;
+}
+
+.card-content div:nth-child(2) ul:nth-child(1) {
+    padding: 0 0 0 1rem;
+    margin: 0;
+    list-style-type: none;
+}
+
+.card-content div:nth-child(2) ul li:nth-child(1) {
+    padding: 0 0 0 0.3rem;
+} 
+.card-footer {
+     height: 17px; 
+    background-color: rgba(134, 122, 71, 0.562);
+    margin-top: 0.6rem;
+    text-align: center;
+    border: 1px solid rgb(51, 24, 1);
+}
+

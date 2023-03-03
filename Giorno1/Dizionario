@@ -1,0 +1,115 @@
+Front End è la parte visibile e vengono utilizzate solo 3 tecnologie standard redatte da un ente chiamato w3c: html, css e javascript. 
+Oltre a queste vengono utilizzati altri linguaggi per "potenziare" la scrittura
+
+Back End  è la parte in cui vi sono le componenti gestionali ed architetturali, non ha tecnologie standard, esempi: php, java, python, ruby, node...
+
+la w3c è un ente che determina la sintassi e le regole di scrittura nel web riguardante le tecnologie Front End
+
+HTML è un linguaggio di markup (non programmazione) utilizzato per la creazione di una struttura di una pagina
+
+CSS viene utilizzato per stilizzare una pagina
+
+JAVASCRIPT viene utilizzato per realizzare l'interazione con l'utente, la reattività, l'animazione...
+
+Questi tre sono linguaggi che vanno interpretati dal browser
+
+SoC è una tecnica per separare i compiti de le preoccupazioni che viene applicata all'interno del codice
+
+PolyFills sono tecniche che permettono di adattare i codici su ogni browser
+
+BROWSER: programma applicativo che fornisce un modo per visualizzare e interagire con tutte le informazioni del World Wide Web, utilizza il protocollo HTTP.
+
+Creare sempre file senza spazi, utilizzare underscore (_), trattini (-) o camel charset (CamelCase)
+
+camel case: scrivere tutto attaccato utilizzando le maiuscole all'inizio di ogni parole
+
+TAG: Sono gli elementi HTML, vengono trascritti con le <>...</> esono composti da un Nome e da attributi, gli attributi (width, height ecc) se non trascritti sono quelli standard 
+
+    <b>: scrivere in grassetto il contenuto
+    <i>: scrivere in corsivo il contenuto
+    <head>: mette informazioni metadati, titolo, lingua...
+    <title>: serve per scrivere il titolo della pagina
+    <!-- ... -->: tag per trascrivere un commento visibile solo dall'operatore    
+    <meta charset="utf-8">: seleziona il set di caratteri utilizzato, nell`esempio serve per immettere caratteri come lettere accentate, speciali, simboli...
+    <meta name="">: permette di far scalare le strutture su smarthphone
+    <meta http-equiv=""> compatibilità dei browser, siti web
+    <p></p>: serve per scrivere un paragrafo, a differenza del div avrà dello spazio come bordo sotto e sopra
+    <br>: serve per andare a capo e non ha un tag di chiusura (</>)
+    <ul></ul>: lista non ordinata, può avere al suo interno solo <li></li> che può contenere anche altri tag
+    <ol></ol>: lista ordinata, può avere al suo interno solo <li></li> che può contenere anche altri tag
+    <table></table>: tag per creare la tabella
+    <tr></tr>: creare una riga della tabella
+    <td></td>: crea un elemento all`interno della tabella
+    <span></span>: elemento di sezionamento in line (modifica una parte del testo come sottoilneato, corsivo ecc...)
+    <div></div>: elemento di sezionamento in blocco
+    #: serve per linkare punti della stessa pagina 
+    <nav></nav>: tag di navigazione
+    <pre></pre>: permette di rappresentare tutto ciò che viene scritto all`interno tranne i codici, solo lettere e caratteri speciali 
+    &lt; &gt;: permette di rappresentare esattamente tutto ciò che viene inserito  (codici senza che vengano tradotti dal browser, lettere posizionate nella linea inferiore per formare un disegno...)
+    <blockquote></blockquote>: viene utilizzato per inserire una citazione e lo spazio per il nome dell`autore
+    <q></q>: serve per fare una citazione
+    <section></section>: serve per dividere i tag in sezioni
+    <article></article>: viene utilizzato per scrivere il testo di un articolo
+    <del></del>: tag che indica una cancellazione (testo rigato al centro)
+
+Attributi TAG:
+
+        Width: larghezza
+
+        Height: altezza
+
+        Margin: grandezza bordo, posso prenderlo anche siungolarmente aggiungendo bot, top, right e left
+
+        Padding: distanza del contenuto dal bordo, posso prenderlo anche siungolarmente aggiungendo bot, top, right e left. Se vengono inseriti i numeri a padding: (0 0 0 0) l`ordine di cambiamento è superiore, destra , sotto ,sinistra, se vengono scritti solo 2 numeri (0 0) il primo va a modificare top e bottom, il secondo right e left, se ne trascrivo 3 (0 0 0) si va a modificare  (0) top (0) right e left e (0) bottom
+
+        border: viene scritto inserendo i px, lo stile ed il colore (border: 10px dotted  codice colore)
+
+        hover: rende cliccabile un elemento.
+
+        opacity: modifica la trasparenza di un elemento
+
+
+    
+
+ORDINE: i linguaggi vanno scritti in modo ordinato per facilitare il lavoro degli operatori   
+
+SEO: Search Engine Optimization, tecniche per facilitare la ricerca
+
+Elementi Di Blocco: ci sono tag che di base hanno dimensioni maggiori (prendono più spazi del body) e possono essere modificati con il tag weight ed height tramite css
+
+Elementi In Line: tag che occupano solo le dimensioni dei caratteri e non possono essere modificati tramite CSS
+
+Performance: il sito deve essere veloce
+
+Modularità: il codice non deve avere ripetizioni di codice inutili
+
+Semantica: il codice deve essere di facile comprensione
+
+                        CSS
+
+le modifiche di css hanno una predominanza in base alla specificità e alla cronologia, l`ultima ha più rivelanza delle precedenti
+
+CSS: Cascading Stylesheet
+
+font-family: cambia il font della parte selezionata
+
+background-color: cambia il colore della parte selezionata
+
+margin: cambia il volume del margine, se vengono inseriti i numeri (0 0 0 0) l`ordine di cambiamento è superiore, destra , sotto ,sinistra, se vengono scritti solo 2 numeri (0 0) il primo va a modificare top e bottom, il secondo right e left
+
+margin-bottom: margine inferiore
+
+margin-top: margine superiore
+
+display: permette di cambiare la caratteristica del tag come ad esempio far diventare un tag inline come uno <span></span> in un elemento di blocco,
+
+nth-child: serve per selezionare tutti gli elementi "figli" di quel tag, ci sono vari metodi di selezione ad esempio nth-child(even) seleziona tutti gli elementi figli pari di quel elemento selezionato come principale 
+
+Comandi:
+ctrl+x: taglia tutto il contenuto della riga se nulla è evidenziato
+ctrl+z: reinserisce ciò che si è eliminato in precedenza
+ctrl+shift+z: torna nuovamente indietro rispetto al ctrl+z
+ctrl+shift+p: apre la lista dei Comandi
+shift+alt+f: serve per indentare (centrare, spostare verso destra) una riga
+ctrl+s: salva il lavoro
+alt+w: permette di scrivere il tag prima e dopo il dato evidenziato

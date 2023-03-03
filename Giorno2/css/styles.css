@@ -1,0 +1,21 @@
+body {
+  background-color: powderblue;      <!-- cambiare colore allo sfondo con css /!-->
+}
+
+hr {
+
+  border-style: none;
+  border-top:  dotted;
+  border-color: blue;
+  border-width: 5px;
+  width: 10%; <!--> è meglio usare le percentuali per la visualizzazione su smartphone e tablet, se si utilizzano i pixel non sarebbe proporzionato come dovrebbe </!-->
+
+}
+
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: blue;
+}
