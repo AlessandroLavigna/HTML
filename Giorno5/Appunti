@@ -13,6 +13,3 @@ Mettere gli elementi per verificare la funzionalità sotto commento per poter ve
 Tutti gli elementi se non modificati via css vengono posizionati nel angolo superiore sinistro (Es.: se metto due o più elementi vengono messi uno sotto l`altro a sinistra).
 Per rimediare uso il tag css FLOAT che me li unisce in linea la formattazione mettendoli uno di fianco a l`altro.
 Se dopo il comando flow voglio rimettere l`elemento successivo come prima utilizzo il tag css CLEAR. 
-
-
-a
