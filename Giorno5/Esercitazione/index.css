@@ -1,4 +1,4 @@
- article .left-articles {
+ article .left-articles-1 , article .left-articles-2 {
     /* background-color: green ; */
     float: left;    
 }
@@ -8,17 +8,34 @@ article .right-articles {
     /* background-color: green; */
 }
 
-.left-articles ,
+.left-articles-1 ,
+.left-articles-2 ,
 .right-articles {
-    width: 270px;
-    background-color: rgba(133, 88, 6, 0.644);
-    border-radius: 3%;
+    width: 270px; 
+    border-radius: 2%;
     border: 4px black solid ;
     padding: 0.6rem;
     /* float: right; */
     margin: 2rem auto auto 2rem;
+    height: 280px;
 }
 
+img {
+    height: 200px;
+    max-width: 200px;
+}
+
+.left-articles-1 {
+    background-color: rgba(6, 51, 250, 0.76);
+}
+
+.left-articles-2 {
+    background-color: rgba(133, 88, 6, 0.644);
+}
+
+.right-articles {
+    background-color: rgba(212, 12, 12, 0.644);
+}
 .title-article {
     margin-bottom: 1rem;
     border-bottom: 2px solid black;    
@@ -40,7 +57,7 @@ img {
     /* float: right; */
     width: 30px;
     height: auto;
-    margin-top: 1rem;
+    margin: 0.7rem 0;
     padding-right: 0;
     /* margin: 1rem 0 0 0; */
     /* background-color: green;  */
