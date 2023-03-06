@@ -1,3 +1,11 @@
+ html {
+    background-color: rgba(148, 143, 133, 0.842);
+ }
+
+ * {
+    box-sizing: content-box;
+ }
+ 
  article .left-articles-1 , article .left-articles-2 {
     /* background-color: green ; */
     float: left;    
@@ -75,22 +83,27 @@ margin-top: 1rem;
 
 .navigation {
     background-color: brown;
-    padding: 3rem;
+    padding: 2rem;
+    display: block;
 }
 
-
-.left-nav ul li {
+.navigation { 
+    margin: 0;
+    padding: auto;
+    display: block;
+}
+.left-nav li {
     float: left;
     text-align: center;
     text-transform: uppercase;
     list-style-type: none;
-    margin-right: 2rem;  
+    margin: 0 2rem 0 0;  
     color: black;
-    width: auto;    
+    width: auto;  
 }
 
-.left-nav ul li a ,
-.right-nav ul li a {
+.left-nav li a ,
+.right-nav li a {
     text-decoration: none;
     color: black;
     display: block;
@@ -99,7 +112,7 @@ margin-top: 1rem;
     border: 1px solid black;
 }
 
-.right-nav ul li {
+.right-nav li {
     float: right;
     text-align: center;
     text-transform: uppercase;
