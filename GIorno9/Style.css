@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 234, 234);
+}
+
+body {
+    height: 100%;
+}
+header div ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+header div {
+    border-bottom: solid black 2px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 0.7rem;
+}
+
+.main {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.Per-Te {
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    width: 18%;
+    position: inherit;
+}
+.Per-Te ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.Streaming {
+    width: 82%;
+}
+.Main-Stream {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border-bottom: solid black 1px;
+}
+
+.Main-Stream img {
+    width: 400px;
+    height: 200px;
+}
+
+.Secondary-Stream ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Secondary-Stream ul li img {
+    width: 200px;
+    height: 100px;
+    padding: 0.5rem 0;
+}
+
+.Secondary-Stream {
+    border-bottom: solid black 1px;
+}
