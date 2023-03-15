@@ -1,0 +1,3 @@
+Controlli UX: sono quei controlli che vengono fatti direttamente dal tuo client per verificare che i dati immessi siano consoni (password troppo corta o senza caratteri speciali...)
+
+I controlli di dominio:  sono presenti nel server e nel client perchè il server deve controllare che non sia già registrato.
