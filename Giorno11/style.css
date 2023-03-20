@@ -1,0 +1,11 @@
+
+
+div.classe{}  
+div .classe{}
+/* la differenza apportata dallo spazio è ciò che viene indicato.
+Nel primo viene indicato un div con la class classe, nel secondo un elemento con la class classe situato all`interno di un div */
+
+div > .classe {
+    color: red;
+}
+/* va ad indicare gli elementi figli diretti di un div */
