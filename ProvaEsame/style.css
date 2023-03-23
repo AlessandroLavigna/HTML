@@ -36,14 +36,12 @@ div>img {
 
 .main {
     display: flex;
-
 }
 
 .left-side {
     width: 15%;
     height: max-content;
     background-color: black;
-
 }
 
 .left-side ul {
