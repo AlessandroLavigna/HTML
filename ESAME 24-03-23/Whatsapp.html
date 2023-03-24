@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer base {
+            * {
+                box-sizing: border-box;
+            }
+
+            html {
+                max-height: 100%;
+            }
+            }
+
+            @layer Components {
+                .Icons {
+                    @apply w-4 mx-4 my-2
+                }
+
+                .Main-Text {
+                    @apply text-white
+                }
+
+                .msg {
+                    @apply bg-gray-700 w-4/12 rounded m-2 p-3
+                }
+            }
+        </style>
+</head>
+
+<body class="bg-gray-900 m-0 p-0">
+    <header class="flex justify-between">
+        <div class="flex items-center">
+            <i><img class="Icons w-10" src="./Assets/whatsapp-png-whatsapp-transparent-png-image-1012.png" alt=""></i>
+            <div class="Main-Text">Whatsapp</div>
+        </div>
+
+        <div class="flex">
+            <div>
+                <button class="flex hover:bg-gray-400 p-2"><i><img class="w-4" src="./Assets/minus-2-24.png" alt=""></i></button>
+            </div>
+            <div>
+                <button class="flex hover:bg-gray-400 p-2"><i><img class="w-4" src="./Assets/square-outline-24 (1).png" alt=""></i></button>
+            </div>
+            <div>
+                <button class="flex hover:bg-gray-400 p-2"><i><img class="w-4" src="./Assets/x-mark-24 (1).png" alt=""></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="flex h-full">
+        <div class="justify-between ">
+            <div class="flex flex-col bg-gray-900 w-20 justify-between items-center h-full">
+                <div>
+                    <div class="pt-8">
+                        <button class="flex bg-gray-500 rounded-md border-transparent " type="button"><i
+                                class="m-3 "><img src="./Assets/message-2-24.png" alt=""></i></button>
+                        <button class="flex hover:bg-gray-400 rounded" type="button"><i class="m-3"><img
+                                    src="./Assets/phone-28-24.png" alt=""></i></button>
+                        <button class="flex hover:bg-gray-400 rounded" type="button"><i class="m-3"><img
+                                    src="./Assets/circle-dashed-4-24.png" alt=""></i></button>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="flex hover:bg-gray-400 rounded ml-4" type="button"><i class="m-3"><img
+                                src="./Assets/settings-23-24.png" alt=""></i></button>
+                    <!-- il bottone ocn l`immagine non mi permette di centrare l`icona del setting tramite flex -->
+                    <button class="flex hover:bg-gray-400 rounded-lg" type="button"><i class="m-3"><img class="rounded-full"
+                                src="./Assets/WhatsApp Image 2023-03-24 at 10.16.47.jpg" alt=""></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-col w-3/12 bg-gray-800 border-2 border-black rounded-l-lg">
+            <div class="flex justify-between p-4 items-center mx-8">
+                <div class="Main-Text text-3xl">Chats</div>
+                <div>
+                    <button class="hover:bg-gray-400 p-2"><i><img src="./Assets/edit-12-24.png" alt=""></i></button>
+                    <button class="hover:bg-gray-400 p-2"><i><img src="./Assets/three-dots-png-9.png" alt=""></i></button>
+                </div>
+            </div>
+            <div class="mx-12">
+                <input type="text" placeholder="  Search or start a new chat"
+                    class="bg-gray-500 w-full py-2 rounded-xl">
+            </div>
+
+            <div class="flex mx-8 p-6 mt-2 hover:bg-gray-400 cursor-pointer">
+                <div class="pr-6">
+                    <button><i><img src="./Assets/Archive.png" alt=""></i></button>
+                </div>
+                <div class="Main-Text text-l">Archive</div>
+            </div>
+
+            <div>
+                <ul class="flex-col">
+                    <li>
+                        <button class="p-4 hover:bg-gray-400">
+                            <span class="flex">
+                                <img class="w-2/12 rounded-full mr-2"
+                                    src="./Assets/WhatsApp Image 2023-03-24 at 11.36.55.jpg" alt="">
+                                <span class="flex flex-col w-full justify-around">
+                                    <span class="flex justify-between">
+                                        <span class="Main-Text">Digitazon</span>
+                                        <span class="text-green-500">11:03 AM</span>
+                                    </span>
+                                    <span class="flex justify-between">
+                                        <span class="text-gray-500 text-lg">Per curiosità, cos`è questa attività...</span>
+                                        <span class="bg-green-500 rounded-full w-7">2</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="p-4 hover:bg-gray-400">
+                            <span class="flex">
+                                <img class="w-2/12 rounded-full mr-2"
+                                    src="./Assets/WhatsApp Image 2023-03-24 at 11.36.55.jpg" alt="">
+                                <span class="flex flex-col w-full justify-around">
+                                    <span class="flex justify-between">
+                                        <span class="Main-Text">Digitazon</span>
+                                        <span class="text-green-500">11:03 AM</span>
+                                    </span>
+                                    <span class="flex justify-between">
+                                        <span class="text-gray-500 text-lg">Per curiosità, cos`è questa attività...</span>
+                                        <span class="bg-green-500 rounded-full w-7">2</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="p-4 hover:bg-gray-400">
+                            <span class="flex">
+                                <img class="w-2/12 rounded-full mr-2"
+                                    src="./Assets/WhatsApp Image 2023-03-24 at 11.36.55.jpg" alt="">
+                                <span class="flex flex-col w-full justify-around">
+                                    <span class="flex justify-between">
+                                        <span class="Main-Text">Digitazon</span>
+                                        <span class="text-green-500">11:03 AM</span>
+                                    </span>
+                                    <span class="flex justify-between">
+                                        <span class="text-gray-500 text-lg">Per curiosità, cos`è questa attività...</span>
+                                        <span class="bg-green-500 rounded-full w-7">2</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="p-4 hover:bg-gray-400">
+                            <span class="flex">
+                                <img class="w-2/12 rounded-full mr-2"
+                                    src="./Assets/WhatsApp Image 2023-03-24 at 11.36.55.jpg" alt="">
+                                <span class="flex flex-col w-full justify-around">
+                                    <span class="flex justify-between">
+                                        <span class="Main-Text">Digitazon</span>
+                                        <span class="text-green-500">11:03 AM</span>
+                                    </span>
+                                    <span class="flex justify-between">
+                                        <span class="text-gray-500 text-lg">Per curiosità, cos`è questa attività...</span>
+                                        <span class="bg-green-500 rounded-full w-7">2</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="p-4 hover:bg-gray-400">
+                            <span class="flex">
+                                <img class="w-2/12 rounded-full mr-2"
+                                    src="./Assets/WhatsApp Image 2023-03-24 at 11.36.55.jpg" alt="">
+                                <span class="flex flex-col w-full justify-around">
+                                    <span class="flex justify-between">
+                                        <span class="Main-Text">Digitazon</span>
+                                        <span class="text-green-500">11:03 AM</span>
+                                    </span>
+                                    <span class="flex justify-between">
+                                        <span class="text-gray-500 text-lg">Per curiosità, cos`è questa attività...</span>
+                                        <span class="bg-green-500 rounded-full w-7">2</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="p-4 hover:bg-gray-400">
+                            <span class="flex">
+                                <img class="w-2/12 rounded-full mr-2"
+                                    src="./Assets/WhatsApp Image 2023-03-24 at 11.36.55.jpg" alt="">
+                                <span class="flex flex-col w-full justify-around">
+                                    <span class="flex justify-between">
+                                        <span class="Main-Text">Digitazon</span>
+                                        <span class="text-green-500">11:03 AM</span>
+                                    </span>
+                                    <span class="flex justify-between">
+                                        <span class="text-gray-500 text-lg">Per curiosità, cos`è questa attività...</span>
+                                        <span class="bg-green-500 rounded-full w-7">2</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="p-4 hover:bg-gray-400">
+                            <span class="flex">
+                                <img class="w-2/12 rounded-full mr-2"
+                                    src="./Assets/WhatsApp Image 2023-03-24 at 11.36.55.jpg" alt="">
+                                <span class="flex flex-col w-full justify-around">
+                                    <span class="flex justify-between">
+                                        <span class="Main-Text">Digitazon</span>
+                                        <span class="text-green-500">11:03 AM</span>
+                                    </span>
+                                    <span class="flex justify-between ">
+                                        <span class="text-gray-500 text-lg">Per curiosità, cos`è questa attività...</span>
+                                        <span class="bg-green-500 rounded-full w-7">2</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="w-9/12 h-full flex-col">
+            <div class="flex justify-between bg-gray-800 h-18  border-2 border-l-0 border-black">
+                <div class="flex">
+                    <img class="w-14 rounded-full m-2" src="./Assets/WhatsApp Image 2023-03-24 at 11.36.55.jpg" alt="">
+                    <div class="flex flex-col w-full justify-around">
+                        <div class="Main-Text">Digitazon</div>
+                        <div class="">
+                            <div class="text-gray-500 text-lg">Digitazon Digitazon Digitazon Digitazon Digitazon
+                                Digitazon Digitazon Digitazon Digitazon Digitazon Digitazon ... </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <button class="flex hover:bg-gray-400 p-2 rounded"><i><img class="Icons" src="./Assets/video-call-24.png" alt=""></i></button >
+                    <button class="flex hover:bg-gray-400 p-2 rounded" ><i><img class="Icons" src="./Assets/phone-28-24.png" alt=""></i></button >
+                    <div class="border-l border-gray-200 h-8 "></div>
+                    <button class="flex hover:bg-gray-400 p-2 rounded"><i><img class="Icons" src="./Assets/search-13-24.png" alt=""></i></button >
+                </div>
+            </div>
+
+            <div class="flex-col">
+
+                <div class="flex  justify-end py-10 h-full bg-[url('./Assets/descargar-whatsapp-wallpaper.jpg')]">
+                    <div class="flex-col w-10/12 ">
+                        <div class="msg flex-col">
+                            <div class="flex justify-between">
+                                <div class="text-green-500">+39 999 134 2879</div>
+                                <div class="text-gray-400">~ Mario Rossi</div>
+                            </div>
+                            <div class="flex justify-between">
+                                <div class="Main-Text w-9/12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Accusantium necessitatibus delectus cum perferendis neque vero suscipit. Iusto eos
+                                    cupiditate aspernatur nostrum a fuga pariatur hic vitae aperiam accusantium, dolore
+                                    quaerat.</div>
+                                <div class="text-gray-400 self-end">2:45 PM</div>
+                            </div>
+                        </div>
+                        <div class="msg flex-col">
+                            <div class="flex justify-between">
+                                <div class="Main-Text w-9/12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Accusantium necessitatibus delectus cum perferendis neque vero suscipit.</div>
+                                <div class="text-gray-400 self-end">2:46 PM</div>
+                            </div>
+                        </div>
+                        <div class="msg flex-col mt-12">
+                            <div class="flex justify-between">
+                                <div class="text-pink-500">+39 999 134 3434</div>
+                                <div class="text-gray-400">~ Clara Verdi</div>
+                            </div>
+                            <div class="flex justify-between">
+                                <div class="Main-Text w-9/12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Accusantium necessitatibus delectus cum perferendis neque vero suscipit. Iusto eos
+                                    cupiditate aspernatur nostrum a fuga pariatur hic vitae aperiam accusantium, dolore
+                                    quaerat.</div>
+                                <div class="text-gray-400 self-end">2:47 PM</div>
+                            </div>
+                        </div>
+                        <div class="msg flex-col w-2/12">
+                            <div class="flex justify-between">
+                                <i class="relative left-5"><img src="./Assets/OK2.png" alt=""></i>
+                                <div class="text-gray-400 self-end">2:47 PM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <div class="flex bg-gray-800 h-16 border-2 border-l-0 border-black justify-between items-center px-2">
+                                <div class="flex gap-4">
+                                    <button class="flex hover:bg-gray-400 rounded" type="button"><i class="m-3"><img
+                                                src="./Assets/emoticon-30-24.png" alt=""></i></button>
+                                    <button class="flex hover:bg-gray-400 rounded" type="button"><i class="m-3"><img src="./Assets/attach-24.png"
+                                                alt=""></i></button>
+                                    <input type="text" placeholder="Type a message" class="bg-transparent">
+                                </div>
+                                <div class="">
+                                    <button class="flex hover:bg-gray-400 rounded" type="button"><i class="m-3"><img
+                                                src="./Assets/microphone-5-24.png" alt=""></i></button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

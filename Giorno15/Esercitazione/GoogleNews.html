@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google News</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+        <style type="text/tailwindcss">
+            @layer base {
+
+            }
+
+            @layer Components {
+                .nav {
+                    @apply text-white mr-8 hover:text-gray-400 text-2xl
+                }
+                
+            }
+        </style>
+</head>
+<body>
+
+    <header class="flex-col bg-gray-900 ">
+        <div class="flex justify-between p-6">
+            <div class="text-white text-5xl">Google News</div>
+            <div>
+                <input type="text" placeholder="Cerca argomenti, località e fonti" class="py-4 px-80 bg-gray-500 mr-3">
+                <button class="text-white mr-3" type="button">?</button>
+                <button class="text-white mr-3" type="button">Settings</button>
+            </div>
+            <div class="">
+                <button class="text-white" type="button">Home</button>
+                <button class="text-white" type="button">Profilo</button>
+            </div>
+        </div>
+        <div>
+            <ul class="flex justify-center pt-4">
+                <li class="nav text-blue-600 underline">Home page</li>
+                <li class="nav">Per te</li>
+                <li class="nav">Stai Seguendo</li>
+                <li class="nav pr-8 border-r-2 border-gray-500">News Showcase</li>
+                <li class="nav">Italia</li>
+                <li class="nav">Dal mondo</li>
+                <li class="nav">Notizie locali</li>
+                <li class="nav">Affari</li>
+                <li class="nav">Scienza e tecnologia</li>
+                <li class="nav">Intrattenimento</li>
+                <li class="nav">Sport</li>
+                <li class="nav">Salute</li>
+            </ul>
+        </div>
+    </header >
+
+    <section class="flex-col bg-gray-600 h-screen">
+        <div class="flex justify-center pt-10">
+            <div class="flex-col w-6/12">
+                <span class="hover:text-blue-600">Modalità di classificazione di questi articoli</span>
+                <div class="flex justify-between">
+                    <div>
+                        <span>Le tue notizie</span>
+                        <span>giovedì 23 marzo</span>
+                    </div>
+                    <div>
+                        <span><</span>
+                    </div>
+                </div>
+
+            </div>
+        </div >
+    </section>
+</body>
+</html>
